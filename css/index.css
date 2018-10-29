@@ -1,0 +1,69 @@
+body {
+
+}
+
+#navigation {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 1em 5em;
+
+  background-color: rgb(106, 57, 156);
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+#links {
+  margin: 0;
+  padding: 0;
+}
+
+#links a {
+  color: white;
+  text-decoration: none;
+}
+
+#greeting {
+  display: inline-block;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#message-box {
+  flex-grow: 8;
+  display: flex;
+  flex-flow: column wrap;
+  height: 75vh;
+}
+
+#text-enter {
+  position: fixed;
+  bottom: 20px;
+  width: 50%;
+}
+
+#messages {
+  overflow-y: auto;
+}
+
+#input {
+  width: 75%;
+}
+
+.tile {
+  height: 25px;
+}
+
+#msg-btn{
+  width: 15%;
+}
+
+.users-box {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column wrap;
+}
